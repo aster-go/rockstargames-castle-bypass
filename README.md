@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Type-Reverse%20Engineering-blue?style=flat-square" alt="Type: Reverse Engineering">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License: MIT">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square" alt="Python">
-  <a href="https://github.com/glizzykingdreko/rockstargames-castle-bypass"><img src="https://img.shields.io/github/stars/glizzykingdreko/rockstargames-castle-bypass?style=flat-square&logo=github" alt="GitHub stars"></a>
+  <a href="https://github.com/aster-go/rockstargames-castle-bypass"><img src="https://img.shields.io/github/stars/aster-go/rockstargames-castle-bypass?style=flat-square&logo=github" alt="GitHub stars"></a>
   <br />
 </div>
 
@@ -45,7 +45,7 @@ Get ready making your accounts for GTA VI.
 Create an free account on [TakionAPI Dashboard](https://takionapi.tech/trial) in order to start your trial and get your `TAKION_API_KEY`
 
 ```bash
-git clone https://github.com/glizzykingdreko/rockstar-castle-bypass.git
+git clone https://github.com/aster-go/rockstar-castle-bypass.git
 cd rockstar-castle-bypass
 pip install -r requirements.txt
 ```
@@ -296,16 +296,3 @@ The account creation and the enrolment are separate, a created account is never 
 > I'm on a different Castle-protected site, do you support it?
 
 Change the `website` parameter and you're most of the way there. Not sure about your target's flow? Hit me on Discord.
-
-## Connect with me
-
-If you found this project helpful or interesting, consider starring the repo and following me for more security research and tools, or buy me a coffee to keep me up
-
-<p align="center">
-  <a href="https://github.com/GlizzyKingDreko"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://twitter.com/GlizzyKingDreko"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-  <a href="https://medium.com/@GlizzyKingDreko"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-  <a href="https://discord.com/users/GlizzyKingDreko"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="mailto:glizzykingdreko@protonmail.com"><img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"></a>
-  <a href="https://buymeacoffee.com/glizzykingdreko"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee"></a>
-</p>
