@@ -8,11 +8,6 @@
   <br />
 </div>
 
-![Takion x RockstarGames](assets/takion-rockstar-x-header.png)
-<div align="center">
-  <a href="https://takionapi.tech/"><img src="https://takionapi.tech/badge?text=Powered+by+TakionAPI&theme=dark" alt="TakionAPI"></a>
-  <br />
-</div>
 
 Login and register accounts on `signin.rockstargames.com`, bypass **Castle** and **reCAPTCHA v3 Enterprise**. Antibots part is handled by [TakionAPI](https://takionapi.tech).
 
@@ -210,10 +205,6 @@ login -> connect/authorize/rsg -> connect/check/rsg (returns a code)
 `requestRegisterMfa` hands back the base32 `secretKey`, the script confirms it with a live TOTP off that same secret, then appends `{email, password, nickname, totp_secret, rockstar_id, created_at}` to `accounts_2fa.json` (and prints it), so the secret you'll log in with later is never only in your head. The registration succeeds on its own, the enrolment is a follow-on step, so a blocked enrolment still leaves you a created account.
 
 > One detail worth knowing: the `BearerToken` is delivered as a cookie on the gateway's `302`, so the gateway hop is fetched with `allow_redirects=False` to read that `Set-Cookie` off the redirect instead of following it. And `requestRegisterMfa` is a bodyless POST that the origin only accepts with an explicit `Content-Length: 0`, without it you get a `411`.
-
-## TakionAPI Solution
-
-![TakionAPI](assets/castle.png)
 
 Unless you want to start deobfuscating Castle, understanding it, and, the annoying part, keeping it up to date every time it changes, we at [TakionAPI](https://takionapi.tech) already do that for you. Same for the TLS client, which goes stale the moment Chrome ships a new hello. You focus on your business logic, we handle the bypass.
 
